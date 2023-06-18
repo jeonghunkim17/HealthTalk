@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat - Kokoa Clone</title>
+  </head>
+  <body id="chat-screen">
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+        <!-- wifi icon-->
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>100%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="chats.html">
+          <i class="fas fa-angle-left fa-3x"></i>
+        </a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">라면이 좋아!</h1>
+      </div>
+      <div class="alt-header__column">
+        <span><i class="fas fa-search fa-2x"></i></span>
+        <span><i class="fas fa-bars fa-2x"></i></span>
+      </div>
+    </header>
+
+    <main class="main-screen main-chat">
+      <div class="chats__timestamp">Monday, May 8, 2023</div>
+
+      <div class="message-row">
+        <img
+          src="https://lh3.googleusercontent.com/ogw/AOLn63E6xCJi_HFs_7EB6o3CoeoVG1Y6qX5XTKbqKpEffQ=s32-c-mo"
+        />
+        <div class="message-row__content">
+          <span class="message__author">Claire</span>
+          <div class="message__info">
+            <span class="message__bubble first-message"
+              >지금부터 술먹거나 밥먹을때</span
+            >
+          </div>
+          <div class="message__info">
+            <span class="message__bubble">사진 쫌 찍어서 올려줘.</span>
+          </div>
+          <div class="message__info">
+            <span class="message__bubble">음식사진</span>
+          </div>
+          <div class="message__info">
+            <span class="message__bubble">많이 필요해.</span>
+            <span class="message__time">21:10</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row">
+        <img
+          src="https://lh3.googleusercontent.com/ogw/AOLn63E6xCJi_HFs_7EB6o3CoeoVG1Y6qX5XTKbqKpEffQ=s32-c-mo"
+        />
+        <div class="message-row__content">
+          <span class="message__author">명식</span>
+
+          <div class="message__info">
+            <span class="message__bubble first-message">드디어 끝난건가?</span>
+            <span class="message__time">21:15</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row message-row__own">
+        <div class="message-row__content">
+          <div class="message__info">
+            <img src="img/1.jpeg" />
+            <img src="img/2.jpeg" />
+            <img src="img/3.jpeg" />
+            <span class="message__time">21:23</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row">
+        <img
+          src="https://lh3.googleusercontent.com/ogw/AOLn63E6xCJi_HFs_7EB6o3CoeoVG1Y6qX5XTKbqKpEffQ=s32-c-mo"
+        />
+        <div class="message-row__content">
+          <span class="message__author">Claire</span>
+
+          <div class="message__info">
+            <span class="message__bubble first-message">오~~~ㅋㅋㅋ</span>
+            <span class="message__time">21:30</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <form class="reply">
+      <div class="reply__column">
+        <i class="far fa-plus-square fa-lg"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="Write a message!!" />
+        <i class="far fa-smile fa-lg"></i>
+        <button>
+          <i class="fas fa-arrow-up"></i>
+        </button>
+      </div>
+    </form>
+    <div id="no-mobile">
+      <span>화면을 줄여주세요!!</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
